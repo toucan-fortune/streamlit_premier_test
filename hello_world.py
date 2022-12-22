@@ -45,14 +45,14 @@ st.color_picker('Choose your favorite color')
 
 st.header("Widgets 3")
 
-import time
+#import time
 
 st.write("Après les ballons, attendre 2 secondes...")
 
 st.balloons()
 st.progress(2)
-with st.spinner('Wait for it... (2s)'):
-    time.sleep(2)
+#with st.spinner('Wait for it... (2s)'):
+#    time.sleep(2)
 
 
 st.header("Widgets 4")

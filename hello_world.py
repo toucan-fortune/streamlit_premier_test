@@ -1,8 +1,10 @@
 import streamlit as st
 import time
+import random
 
 # dans le requirements.txt
-# ne pas installer time qui est un module standard à Python
+# ne pas installer time (ou autre module)
+# qui est un module standard à Python
 
 # local run
 # streamlit run hello_world.py
@@ -157,9 +159,9 @@ st.write("Nombres générés au hasard, dans une liste; \
          delta entre les deux nombres. Montrer le 2e nombres \
          et le delta entre les deux:")
 liste_temperature = []
-liste_temperature.append(np.random.randint(15, 25))
+liste_temperature.append(random.randint(15, 25))
 for i in range(0, 5, 1):
-    liste_temperature.append(np.random.randint(15, 25))
+    liste_temperature.append(random.randint(15, 25))
     delta = liste_temperature[-1] - liste_temperature[-2]
     st.metric(f"Température {i + 1}", liste_temperature[-1], delta)
 

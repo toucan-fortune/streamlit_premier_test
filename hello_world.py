@@ -1,6 +1,8 @@
 import streamlit as st
 import time
-import numpy as np
+
+# dans le requirements.txt
+# ne pas installer time qui est un module standard à Python
 
 # local run
 # streamlit run hello_world.py

@@ -8,6 +8,18 @@ import streamlit as st
 # streamlit run base.py
 
 ##################################################
+# Configurer la page
+# wide, centered
+# auto or expanded
+#menu_items={'Get Help': 'https://www.extremelycoolapp.com/help',
+#            'Report a bug': "https://www.extremelycoolapp.com/bug",
+#            'About': "# This is a header. This is an *extremely* cool app!"}
+st.set_page_config(page_title="Tableau de bord",
+                   page_icon="img/favicon-32x32b.png",
+                   layout="centered",  # wide
+                   initial_sidebar_state="auto")  # expanded
+
+##################################################
 st.title ("title: Tableau de base")
 
 st.header("header: Markdown")

@@ -38,6 +38,12 @@ st.number_input('Street number')
 st.date_input('Travelling date')
 st.time_input('School time')
 
+
+# voir
+# st.stop() si l'entrée est invalide
+# 
+
+
 # st.text_area(label, value="", height=None, max_chars=None, key=None, help=None, on_change=None, args=None, kwargs=None, *, placeholder=None, disabled=False, label_visibility="visible")
 st.text_area('Description')
 
